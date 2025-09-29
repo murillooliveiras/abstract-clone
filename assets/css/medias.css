@@ -1,0 +1,70 @@
+@media screen and (min-width: 46.25em){
+    .header_action a{
+        font-size: 1.5rem;
+    }
+
+    .container_cards{
+        padding: 2rem;
+        gap: 2rem;
+    }
+
+    .row > .md-6{
+        grid-column: span 6;
+    }
+
+    .row > .md-3{
+        grid-column: span 3;
+    }
+
+    .row > .md-6{
+        grid-column: span 6;
+    }
+
+    .hero_busca{
+        max-width: 42.1875rem;
+    }
+
+
+}
+
+@media screen and (min-width: 64em){
+    .row > .lg-2{
+        grid-column: span 2;
+    }
+
+    .row > .lg-1-7{
+        grid-column: 1 / 7;
+    }
+
+    .row > .lg-8-12{
+        grid-column: 8 / 13;
+    }
+
+
+}
+
+
+/*MENU MOBILE*/
+@media (max-width: 46.25em) {
+    .header_action {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0px;
+        width: 100%;
+        gap: 1rem;
+        padding: 1rem 3rem;
+        border-radius: 8px;
+        background: #000;
+        align-items: flex-end;
+    }
+
+    .header_action.active {
+        display: flex;
+    }
+
+    .header_toggle {
+        display: flex;
+    }
+}
